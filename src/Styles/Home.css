@@ -1,0 +1,54 @@
+.Home {
+    flex-grow: 1;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Home .title {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .Home .title p { line-height: 50px; font-weight: bolder !important; }
+  
+  .Home .title button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 999px;
+    background-color: #3f71f4;
+    font-family: "Righteous", cursive;
+  }
+  
+  .Home .person {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .Home .person img { 
+      width: 80%; 
+      border-radius: 50%;
+    }
+
+  @media (min-width: 900px) {
+    .Home {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .Home .title,
+    .Home .person {
+      width: 50%;
+      margin-top: 0;
+      text-align: left;
+      font-size: 25px;
+    }
+    .Home .person img { width: 100%; }
+  }

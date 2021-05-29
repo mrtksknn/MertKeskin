@@ -1,0 +1,35 @@
+import React from "react";
+import Typed from "react-typed";
+import author from "../Images/author.png";
+import "../Styles/Home.css";
+
+const Home = () => {
+    return (
+        <div className="Home">
+            <div className="title">
+                <h1>
+                    <p>Hi,</p>
+                    <p>I am Mert</p>
+                    <p>
+                    <Typed
+                        className="typed-text"
+                        strings={["Web Developer", "UI Developer"]}
+                        typeSpeed={100}
+                        backSpeed={100}
+                        loop
+                    />
+                    </p>
+                </h1>
+                    <button>More Info</button>
+            </div>
+            <div className="person">
+                <img 
+                    src={author}
+                    alt="person"
+                />
+            </div>
+        </div>
+    );
+};
+
+export default Home;
