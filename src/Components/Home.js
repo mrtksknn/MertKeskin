@@ -9,7 +9,7 @@ const Home = () => {
             <div className="title">
                 <h1>
                     <p>Hi,</p>
-                    <p>I am Mert</p>
+                    <p>I'm Mert</p>
                     <p>
                     <Typed
                         className="typed-text"

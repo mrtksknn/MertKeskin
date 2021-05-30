@@ -3,8 +3,8 @@ import "../Styles/AboutMe.css";
 
 const About = () => {
     return (
-        <div className="About">
-            <h1>About Me</h1>
+        <div className="About" id="AboutMe">
+            <h2>About Me</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna 

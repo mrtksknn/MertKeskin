@@ -25,3 +25,8 @@
 .card-header {
     color: dodgerblue;
 }
+
+.Projects h2 {
+    margin-bottom: 20px;
+    padding: 0 100px;
+}

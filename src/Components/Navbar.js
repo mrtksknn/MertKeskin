@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/Navbar.css";
-import logo from "../Images/logo.PNG";
+import logo from "../Images/real-logo.PNG";
 import menuBars from "../Images/menu-bars.png";
 import menuClose from "../Images/menu-close.png";
 
@@ -54,10 +54,10 @@ const Navbar = () => {
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <a href="/">About Me</a>
+                            <a href="#AboutMe">About Me</a>
                         </li>
                         <li>
-                            <a href="/">Projects</a>
+                            <a href="#Projects">Projects</a>
                         </li>
                         <li>
                             <a href="/">Comments</a>

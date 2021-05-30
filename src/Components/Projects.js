@@ -6,11 +6,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Projects = () => {
 
-    return <div className="Projects">
+    return <div className="Projects" id="Projects">
         <section className="pt-3">
                 <div className="row">
                     <div className="col-lg-12">
-                        <h1>Projects</h1>
+                        <h2>Some Of My Past Projects</h2>
                     </div>
                </div>
         </section>
