@@ -1,0 +1,138 @@
+.Contact { 
+    padding: 80px 0;
+}
+
+.Contact h2 {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: rgb(236, 184, 7);
+}
+
+
+.Contact h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 230px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.contact-me {
+    box-sizing: border-box;
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column { width: calc(50% - 30px); }
+
+.row {
+    display: flex;
+    align-items: center;
+    line-height: 0.3rem;
+    box-sizing: border-box;
+}
+
+.row > i {
+    font-size: 25px;
+    color: #1d809f;
+}
+
+.info {
+    margin-left: 30px;
+}
+
+.info > h4 {
+    font-weight: 700;
+}
+
+.fields { 
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-info, .contact-form {
+    width: 100%;
+}
+
+.name {
+    margin-right: 50px;
+}
+
+textarea { 
+    resize: none;
+    height: 100px;
+}
+
+#textarea { padding-bottom: 20px; }
+
+#submit {
+    height: 47px;
+    width: 170px;
+    border: 2px solid crimson;
+    background: crimson;
+    color: #fff;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .rows {
+      width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-me {
+      width: 100%;
+      flex-flow: column;
+    }
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+    .row { padding: 0 10px; }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-me {
+      width: 100%;
+      flex-flow: column;
+    }
+}
