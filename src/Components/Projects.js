@@ -65,22 +65,6 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div className="card">
-                            <div className="card-img-top card-img-top-250">
-                                <img className="img-fluid" src={Pro1} alt="project_1"/>
-                            </div>
-                            <div className="card-block pt-2">
-                                <div className="card-header">
-                                    <h3>Project 4</h3>
-                                </div>
-                                <div className="card-text">
-                                    Lorem Ipsum is simply dummy text of the printing and 
-                                    typesetting industry.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
