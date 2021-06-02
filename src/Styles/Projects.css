@@ -11,6 +11,10 @@
     display: flex;
 }
 
+.card-text {
+    line-height: normal;
+}
+
 .carousel-inner > .row-equal.active.left,
 .carousel-inner > .row-equal.active.left {
     opacity: 0.5;

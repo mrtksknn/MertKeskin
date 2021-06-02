@@ -1,0 +1,32 @@
+.comment-box {
+    color: #000;
+    border-radius: 0.875rem;
+    padding: 10rem 100px 2rem 100px;
+}
+
+.comment-count {
+    color: #404040;
+}
+
+.comment-reveal {
+    float: right;
+    background-color: #00BDFC;
+    color: #fff;
+}
+
+.comment-box button {
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.75em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.comment-box button:hover { cursor: pointer; }
+
+.comment-box button:focus {
+    text-decoration: none;
+    outline: none;
+}

@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import About from "./Components/AboutMe";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import CommentBox from "./Components/CommentBox";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <Home />
             <About />
             <Projects />
+            <CommentBox />
             <Contact />
         </div>
   );

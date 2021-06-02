@@ -1,0 +1,23 @@
+.Comment {
+    border-top: 0.125rem solid #404040;
+}
+
+.comment-body {
+    font-style: italic;
+    margin-left: 1rem;
+}
+
+.comment-footer {
+    margin-bottom: 1rem;
+}
+
+.comment-footer-delete {
+    padding: 0.2rem 0;
+    color: #404040;
+    text-decoration: none;
+}
+
+.comment-footer-delete:hover {
+    color: #00BDFC;
+    font-weight: bold;
+}
