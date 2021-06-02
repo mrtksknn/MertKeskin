@@ -1,13 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New" !important;
+  font-family: "Inter", sans-serif !important;
   
 }
 
 body {
   margin: 0;
-  font-family: "Roboto Condesed" sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #dde8fc !important;
@@ -20,8 +20,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family:'Courier New', sans-serif;
 }
 
 .container {
@@ -32,7 +31,7 @@ code {
 
 p {
   line-height: 30px !important;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New" !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 h1,h2 {
