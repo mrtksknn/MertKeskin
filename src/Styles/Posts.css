@@ -2,6 +2,12 @@
     list-style: none;
 }
 
-.posts p:first-child {
-    font-weight: bolder;
+.posts #author {
+    font-weight: 600;
+}
+
+.posts button {
+    border: none;
+    background: none;
+    color: #dc3545;
 }

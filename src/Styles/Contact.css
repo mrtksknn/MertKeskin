@@ -11,7 +11,6 @@
     padding-bottom: 20px;
     font-size: 36px;
     text-transform: uppercase;
-    color: rgb(236, 184, 7);
 }
 
 
@@ -99,8 +98,8 @@ textarea {
 #submit {
     height: 47px;
     width: 170px;
-    border: 2px solid crimson;
-    background: crimson;
+    border: 2px solid #28a745;
+    background: #28a745;
     color: #fff;
     outline: none;
     font-size: 20px;

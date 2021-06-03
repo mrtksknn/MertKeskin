@@ -7,7 +7,7 @@ class Posts extends Component {
             <div className="posts">
                 <li>
                     <hr/>
-                    <p>{this.props.author}</p>
+                    <p id="author">{this.props.author}</p>
                     <p><i>-{this.props.body}</i></p>
                     <button onClick={this.props.delete}>Delete</button>
                     <hr/>
