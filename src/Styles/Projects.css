@@ -13,6 +13,7 @@
 
 .card-text {
     line-height: normal;
+    padding: 1rem;
 }
 
 .carousel-inner > .row-equal.active.left,
@@ -33,4 +34,5 @@
 .Projects h2 {
     margin-bottom: 20px;
     padding: 0 100px;
+    font-weight: 600;
 }

@@ -4,6 +4,29 @@
     padding: 10rem 100px 2rem 100px;
 }
 
+.comment-box h2 { 
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: rgb(236, 184, 7);
+}
+
+.comment-box h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 230px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
 .comment-count {
     color: #404040;
 }

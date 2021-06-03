@@ -4,15 +4,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 200px 100px 0 100px;
   }
   
-  .Home .title {
-    width: 100%;
-    font-size: 18px;
+  .title { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+  
+  .title h1 {
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
-  
+
   .Home .title p { line-height: 50px; font-weight: bolder !important; }
   
   .Home .title button {

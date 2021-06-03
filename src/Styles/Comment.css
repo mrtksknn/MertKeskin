@@ -2,6 +2,10 @@
     border-top: 0.125rem solid #404040;
 }
 
+.comment-header {
+    font-weight: bolder;
+}
+
 .comment-body {
     font-style: italic;
     margin-left: 1rem;
@@ -9,15 +13,17 @@
 
 .comment-footer {
     margin-bottom: 1rem;
+    text-align: end;
 }
 
 .comment-footer-delete {
     padding: 0.2rem 0;
-    color: #404040;
+    color: #cc203c;
+    font-weight: lighter;
     text-decoration: none;
 }
 
 .comment-footer-delete:hover {
-    color: #00BDFC;
-    font-weight: bold;
+    color: #cc203c;
+    font-weight: 800;
 }
