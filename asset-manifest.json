@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mertkeskin/static/css/main.4f9af082.chunk.css",
-    "main.js": "/mertkeskin/static/js/main.af063303.chunk.js",
-    "main.js.map": "/mertkeskin/static/js/main.af063303.chunk.js.map",
+    "main.css": "/mertkeskin/static/css/main.9f6da14b.chunk.css",
+    "main.js": "/mertkeskin/static/js/main.9e85c611.chunk.js",
+    "main.js.map": "/mertkeskin/static/js/main.9e85c611.chunk.js.map",
     "runtime-main.js": "/mertkeskin/static/js/runtime-main.4eb62585.js",
     "runtime-main.js.map": "/mertkeskin/static/js/runtime-main.4eb62585.js.map",
     "static/css/2.31e16846.chunk.css": "/mertkeskin/static/css/2.31e16846.chunk.css",
@@ -12,9 +12,9 @@
     "static/js/3.fb36bb77.chunk.js.map": "/mertkeskin/static/js/3.fb36bb77.chunk.js.map",
     "index.html": "/mertkeskin/index.html",
     "static/css/2.31e16846.chunk.css.map": "/mertkeskin/static/css/2.31e16846.chunk.css.map",
-    "static/css/main.4f9af082.chunk.css.map": "/mertkeskin/static/css/main.4f9af082.chunk.css.map",
+    "static/css/main.9f6da14b.chunk.css.map": "/mertkeskin/static/css/main.9f6da14b.chunk.css.map",
     "static/js/2.0749a39e.chunk.js.LICENSE.txt": "/mertkeskin/static/js/2.0749a39e.chunk.js.LICENSE.txt",
-    "static/media/author.dc77b3a4.png": "/mertkeskin/static/media/author.dc77b3a4.png",
+    "static/media/author.dc966971.jpeg": "/mertkeskin/static/media/author.dc966971.jpeg",
     "static/media/pro1.1272ab8e.jpg": "/mertkeskin/static/media/pro1.1272ab8e.jpg",
     "static/media/real-logo.bc628a43.PNG": "/mertkeskin/static/media/real-logo.bc628a43.PNG"
   },
@@ -22,7 +22,7 @@
     "static/js/runtime-main.4eb62585.js",
     "static/css/2.31e16846.chunk.css",
     "static/js/2.0749a39e.chunk.js",
-    "static/css/main.4f9af082.chunk.css",
-    "static/js/main.af063303.chunk.js"
+    "static/css/main.9f6da14b.chunk.css",
+    "static/js/main.9e85c611.chunk.js"
   ]
 }
