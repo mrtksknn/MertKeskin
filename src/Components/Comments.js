@@ -56,7 +56,7 @@ class Comments extends Component {
   render() {
     return (
           <div>
-              <div className="Comments">
+              <div className="Comments" id="Comments">
               <h2>Comments</h2>
                 <ul>
                   {
@@ -72,10 +72,14 @@ class Comments extends Component {
                     })
                   }
                 </ul>
-                  <p style={{fontWeight: "600"}}>Add New Comment</p>
-                  <input type="text" placeholder="Username" id="username" onBlur={this.setName}/>
-                  <input type="text" placeholder="Comments" id="comment" onBlur={this.setPost}/>
-                <button onClick={this.addPost}>Add Comment</button>
+                  <div style={{backgroundColor: "#F3F3FE", borderRadius: "10px"}}>
+                    <div style={{padding: "20px" }}>
+                      <p style={{fontWeight: "600"}}>Add New Comment</p>
+                      <input type="text" placeholder="Username" id="username" onBlur={this.setName}/>
+                      <input type="text" placeholder="Comments" id="comment" onBlur={this.setPost}/>
+                      <button onClick={this.addPost}>Add Comment</button>
+                    </div>
+                  </div>
               </div>
           </div>
     );

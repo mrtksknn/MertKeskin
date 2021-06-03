@@ -10,7 +10,7 @@ const Projects = () => {
         <section className="pt-3">
                 <div className="row">
                     <div className="col-lg-12">
-                        <h2>Some Of My Past Projects</h2>
+                        <h2>Projects</h2>
                     </div>
                </div>
         </section>

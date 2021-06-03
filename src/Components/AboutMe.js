@@ -2,9 +2,14 @@ import React from "react";
 import "../Styles/AboutMe.css";
 
 const About = () => {
-    return (
-        <div className="About" id="AboutMe">
-            <h2>About Me</h2>
+    return  <div className="About" id="AboutMe">
+            <section className="pt-3">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <h2>About Me</h2>
+                    </div>
+               </div>
+            </section>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -27,8 +32,7 @@ const About = () => {
                 adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
                 labore et dolore magnam aliquam quaerat voluptatem.
             </p>
-        </div>
-    );
+        </div>;
 };
 
 export default About;

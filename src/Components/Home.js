@@ -12,6 +12,7 @@ const Home = () => {
                     <p>I'm Mert</p>
                     <p>
                     <Typed
+                        style={{ color: "#3f71f4" }}
                         className="typed-text"
                         strings={["Web Developer", "UI Developer"]}
                         typeSpeed={100}

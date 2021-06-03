@@ -37,6 +37,10 @@
 
 .column { width: calc(50% - 30px); }
 
+.column h3 {
+    
+}
+
 .row {
     display: flex;
     align-items: center;
@@ -84,7 +88,7 @@ input, textarea {
 }
 
 .name {
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 textarea { 

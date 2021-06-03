@@ -8,29 +8,29 @@ const Contact = () => {
             <div className="contact-me">
                     <div className="column contact-info">
                         <div className="row">
-                            <i><span><ion-icon name="person"></ion-icon></span></i>
+                            <i><span><ion-icon name="person" style={{color: "#3f71f4"}}></ion-icon></span></i>
                             <div className="info">
-                                <h4>Name</h4>
+                                <p style={{fontWeight: "600", fontSize: "20px"}}>Name</p>
                                 <p>Mert Keskin</p>
                             </div>
                         </div>
                         <div className="row">
-                            <i><span><ion-icon name="location"></ion-icon></span></i>
+                            <i><span><ion-icon name="location" style={{color: "#3f71f4"}}></ion-icon></span></i>
                             <div className="info">
-                                <h4>Address</h4>
+                                <p style={{fontWeight: "600", fontSize: "20px"}}>Address</p>
                                 <p>Ankara, Turkey</p>
                             </div>
                         </div>
                         <div className="row">
-                            <i><span><ion-icon name="mail"></ion-icon></span></i>
+                            <i><span><ion-icon name="mail" style={{color: "#3f71f4"}}></ion-icon></span></i>
                             <div className="info">
-                                <h4>E-mail</h4>
+                                <p style={{fontWeight: "600", fontSize: "20px"}}>E-mail</p>
                                 <p>mertkskinmtk6@gmail.com</p>
                             </div>
                         </div>
                     </div>
                     <div className="column contact-form">
-                        <h3>Message Me</h3>
+                        <p style={{fontWeight: "600"}}>Message Me</p>
                         <form action="#">
                             <div className="fields">
                                 <div className="field name">
