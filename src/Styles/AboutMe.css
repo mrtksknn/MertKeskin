@@ -1,6 +1,7 @@
 .About {
     flex-grow: 1;
-    margin: 200px 0 200px 0;
+    margin: 200px 0 0px 0;
+    padding-top: 100px;
 }
 
 .About h2 {
