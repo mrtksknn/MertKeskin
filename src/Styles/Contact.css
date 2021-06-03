@@ -87,6 +87,11 @@ input, textarea {
     width: 100%;
 }
 
+.contact-form {
+    background-color: rgb(243, 243, 254);
+    border-radius: 10px;
+}
+
 .name {
     margin-right: 25px;
 }

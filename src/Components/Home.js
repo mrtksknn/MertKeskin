@@ -6,7 +6,7 @@ import "../Styles/Home.css";
 const Home = () => {
     return (
         <div className="Home" id="Home">
-            <div className="title">
+            <div className="title" style={{width: "90%"}}>
                 <h1>
                     <p>Hi,</p>
                     <p>I'm Mert</p>

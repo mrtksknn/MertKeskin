@@ -25,7 +25,7 @@
 }
 
 .Comments button {
-    height: 30px;
+    height: auto;
     width: fit-content;
     padding: 0 5px;
     border: 2px solid #28a745;
@@ -46,4 +46,10 @@
   height: 45px;
   width: 100%;
   margin-bottom: 10px;
+}
+
+@media (max-width: 990px) {
+  .Comments {
+    padding: 50px;
+  }
 }

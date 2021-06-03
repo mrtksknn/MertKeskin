@@ -2,8 +2,8 @@
     flex-grow: 1;
     min-width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: row;
     padding: 200px 100px 0 100px;
   }
   
@@ -41,14 +41,18 @@
   }
   
   .Home .person img { 
-      width: 50%; 
+      width: 80%; 
       border-radius: 50%;
     }
 
-  @media (min-width: 900px) {
+  @media (max-width: 990px) {
     .Home {
-      flex-direction: row;
-      justify-content: space-between;
+      flex-grow: 1;
+      min-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 200px 0 0 0;
     }
   
     .Home .title,
@@ -56,7 +60,7 @@
       width: 50%;
       margin-top: 0;
       text-align: left;
-      font-size: 25px;
+      font-size: 20px;
     }
     .Home .person img { width: 100%; }
   }

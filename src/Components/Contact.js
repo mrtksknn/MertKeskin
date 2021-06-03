@@ -30,26 +30,28 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="column contact-form">
-                        <p style={{fontWeight: "600"}}>Message Me</p>
-                        <form action="#">
-                            <div className="fields">
-                                <div className="field name">
-                                    <input type="text" placeholder="Name" required></input>
+                        <div style={{ padding: "20px" }}>
+                            <p style={{fontWeight: "600"}}>Message Me</p>
+                            <form action="#">
+                                <div className="fields">
+                                    <div className="field name">
+                                        <input type="text" placeholder="Name" required></input>
+                                    </div>
+                                    <div className="field surname">
+                                    <input type="text" placeholder="Surname" required></input>
+                                    </div>
                                 </div>
-                                <div className="field surname">
-                                <input type="text" placeholder="Surname" required></input>
+                                <div>
+                                    <input className="field" type="text" placeholder="Subject" required></input>
                                 </div>
-                            </div>
-                            <div>
-                                <input className="field" type="text" placeholder="Subject" required></input>
-                            </div>
-                            <div id="textarea">
-                            <textarea id="text" name="text" rows="4" cols="50" placeholder="Details..."></textarea>
-                            </div>
-                            <div>
-                                <button id="submit" type="submit">Send Message</button>
-                            </div>
-                        </form>
+                                <div id="textarea">
+                                <textarea id="text" name="text" rows="4" cols="50" placeholder="Details..."></textarea>
+                                </div>
+                                <div>
+                                    <button id="submit" type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
         </div>
