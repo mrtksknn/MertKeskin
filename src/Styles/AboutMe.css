@@ -12,7 +12,7 @@
     padding-bottom: 20px;
     font-size: 36px;
     text-transform: uppercase;
-    color: rgb(236, 184, 7);
+    color: #000;
 }
 
 .About h2::before {
@@ -22,7 +22,7 @@
     left: 50%;
     width: 230px;
     height: 3px;
-    background: #111;
+    background: #7abdff;
     transform: translateX(-50%);
 }
 

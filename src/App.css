@@ -8,10 +8,6 @@
   background-color: #ffffff;
 }
 
-ul {
-  padding: 0 100px;
-}
-
 @media (min-width: 900px) {
   .App {
     min-height: 90vh;

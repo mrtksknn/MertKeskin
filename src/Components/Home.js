@@ -20,7 +20,6 @@ const Home = () => {
                     />
                     </p>
                 </h1>
-                    <button>More Info</button>
             </div>
             <div className="person">
                 <img 

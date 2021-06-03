@@ -23,7 +23,7 @@ const Projects = () => {
                                 <img className="img-fluid" src={Pro1} alt="project_1"/>
                             </div>
                             <div className="card-block pt-2">
-                                <div className="card-header">
+                                <div className="card-header" style={{ backgroundColor: "#fff" }}>
                                     <h3>Project 1</h3>
                                 </div>
                                 <div className="card-text">
@@ -39,7 +39,7 @@ const Projects = () => {
                                 <img className="img-fluid" src={Pro1} alt="project_1"/>
                             </div>
                             <div className="card-block pt-2">
-                                <div className="card-header">
+                                <div className="card-header" style={{ backgroundColor: "#fff" }}>
                                     <h3>Project 2</h3>
                                 </div>
                                 <div className="card-text">
@@ -55,7 +55,7 @@ const Projects = () => {
                                 <img className="img-fluid" src={Pro1} alt="project_1"/>
                             </div>
                             <div className="card-block pt-2">
-                                <div className="card-header">
+                                <div className="card-header" style={{ backgroundColor: "#fff" }}>
                                     <h3>Project 3</h3>
                                 </div>
                                 <div className="card-text">

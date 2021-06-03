@@ -1,3 +1,7 @@
 .posts li {
     list-style: none;
 }
+
+.posts p:first-child {
+    font-weight: bolder;
+}
