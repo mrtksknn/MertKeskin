@@ -37,10 +37,6 @@
 
 .column { width: calc(50% - 30px); }
 
-.column h3 {
-    
-}
-
 .row {
     display: flex;
     align-items: center;
@@ -120,6 +116,14 @@ textarea {
 @media screen and (max-width: 1000px) {
     .rows {
       width: 80%;
+    }
+}
+@media (max-width: 990px) {
+    .Contact {
+        padding: 80px 0px;
+    }
+    .column {
+        padding: 0 20px;
     }
 }
 
