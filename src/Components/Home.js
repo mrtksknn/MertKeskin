@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import author from "../Images/author.png";
+import author from "../Images/author.jpeg";
 import "../Styles/Home.css";
 
 const Home = () => {

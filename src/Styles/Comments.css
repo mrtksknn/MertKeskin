@@ -23,3 +23,20 @@
 .Comments {
   padding: 100px;
 }
+
+.Comments button {
+    height:30px;
+    width: 110px;
+    border: 2px solid #28a745;
+    background: #28a745;
+    color: #fff;
+    outline: none;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Comments #comment {
+  margin-top: 10px;
+  height: 100px;
+}

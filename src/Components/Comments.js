@@ -72,8 +72,8 @@ class Comments extends Component {
                     })
                   }
                 </ul>
-                <input type="text" onBlur={this.setName}/>
-                <input type="text" onBlur={this.setPost}/>
+                <input type="text" placeholder="Username" onBlur={this.setName}/>
+                <input type="text" placeholder="Comments" id="comment" onBlur={this.setPost}/>
                 <button onClick={this.addPost}>Add Post</button>
               </div>
           </div>
