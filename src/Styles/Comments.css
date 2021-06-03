@@ -25,8 +25,9 @@
 }
 
 .Comments button {
-    height:30px;
-    width: 110px;
+    height: 30px;
+    width: fit-content;
+    padding: 0 5px;
     border: 2px solid #28a745;
     background: #28a745;
     color: #fff;
@@ -37,6 +38,12 @@
 }
 
 .Comments #comment {
-  margin-top: 10px;
+  margin: 10px 0;
   height: 100px;
+}
+
+.Comments #username {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
 }
