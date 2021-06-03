@@ -10,7 +10,7 @@ class Comments extends Component {
 
     this.state = {
       postArray : [
-        {id: 1, author: "landiggity", body: "This is my first comment on this forum so don't be a dick"},
+        {id: 1, author: "landiggity", body: "This is my first comment on this forum"},
         {id: 2, author: "scarlett-jo", body: "That's a mighty fine comment you've got there my good looking fellow..."},
         {id: 3, author: "rosco", body: "What is the meaning of all of this 'React' mumbo-jumbo?"}
 
@@ -72,8 +72,9 @@ class Comments extends Component {
                     })
                   }
                 </ul>
-                <input type="text" placeholder="Username" id="username" onBlur={this.setName}/>
-                <input type="text" placeholder="Comments" id="comment" onBlur={this.setPost}/>
+                  <p style={{fontWeight: "600"}}>Add New Comment</p>
+                  <input type="text" placeholder="Username" id="username" onBlur={this.setName}/>
+                  <input type="text" placeholder="Comments" id="comment" onBlur={this.setPost}/>
                 <button onClick={this.addPost}>Add Comment</button>
               </div>
           </div>
